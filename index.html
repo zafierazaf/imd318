@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>z4f homepage</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/png" href="https://cdn-icons-png.flaticon.com/512/5934/5934238.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Lora:ital,wght@0,400..700;1,400..700&family=Playwrite+US+Modern:wght@100..400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  
+</head>
+<body>
+  <header>
+    <div class="nav-container">
+      <h1 class="logo">🐰 ZAF PAGE 🐰</h1>
+    <nav>
+  <ul>
+    <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+    <li><a href="contact.html"><i class="fas fa-envelope"></i> Contact</a></li>
+    <li><a href="gallery.html"><i class="fas fa-image"></i> Gallery</a></li>
+    <li><a href="about.html"><i class="fas fa-user"></i> About Me</a></li>
+    <li><a href="music.html"><i class="fas fa-music"></i> Music</a></li>
+    <li><a href="video.html"><i class="fas fa-video"></i> Video</a></li>
+  </ul>
+</nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div id="clock"></div>
+
+      <h2>Welcome to Homepage</h2>
+      <p>Here is My resume, welcome to my homepage </p>
+      <p>From my background and journey to my favorite music and vibes — explore every side of me.</p>
+      <img src="c:\Users\SMKDATO'MOHDYUNOSSUL\Downloads\gambarzaff.jpg" usemap="#mymap" alt="My Image" width="1200" height="auto" >
+<map name="mymap">
+  <area shape="rect" coords="563,533,746,717" href="https://www.radiusite.com.my/radiusite/shawl" alt="shawl">
+</map>
+    </section>
+  </main>
+      <map name="workmap">
+  <area shape="rect" coords="391,474,272,358" alt="zafgambar" href="https://www.youtube.com/channel/UCO5IQ70V7l-XpHW40HwaGsw">
+</map>
+    </section>
+    
+  </main>
+  <footer>
+    <p>&copy;  2025 My Personal Site</p>
+    <div class="social-icons">
+    <a href="https://www.tiktok.com/@szaglobal?lang=en" target="_blank"><i class="fab fa-tiktok"></i></a>
+    <a href="https://www.youtube.com/watch?v=JLd09jmEAYA&pp=ygUDc3ph" target="_blank"><i class="fab fa-youtube"></i></a>
+    <a href="https://open.spotify.com/search/sza" target="_blank"><i class="fab fa-spotify"></i></a>
+    <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank" title="Email Me">
+    📧
+  </a>
+  </div>
+  </footer>
+  <script>
+  function updateClock() {
+    const now = new Date();
+    let hours = String(now.getHours()).padStart(2, '0');
+    let minutes = String(now.getMinutes()).padStart(2, '0');
+    let seconds = String(now.getSeconds()).padStart(2, '0');
+    document.getElementById('clock').textContent = `${hours}:${minutes}:${seconds}`;
+  }
+
+  setInterval(updateClock, 1000);
+  updateClock();
+</script>
+
+</body>
+</html>
